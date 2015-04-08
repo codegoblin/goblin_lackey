@@ -1,4 +1,8 @@
 Gem::Specification.new do |spec|
+  # Dependencies
+  spec.add_runtime_dependency 'thor', ['= 0.19.1']
+
+  # Info / Config
   spec.authors      = ['Cody Johnston']
   spec.bindir       = 'bin'
   spec.date         = '2015-04-08'
